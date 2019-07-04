@@ -1,0 +1,254 @@
+html, body{
+    
+    width: 100%;
+}
+.mynav{
+	background-color: #25353b;
+}
+.nav-header a{
+	color: #fff;
+	font-variant: small-caps;
+	font-weight: bold; 
+	font-size: x-large;
+}
+
+#search{
+	padding: 5px 15px;
+	margin-top: 1.5em;
+	margin-bottom: 10px;
+	line-height: 25px;
+	border-radius: 20px;
+	display: inline-block;
+	width: 20%;
+	font-weight: bold;
+	min-width: 220px;
+    border: 2px solid #000;
+}
+.search{
+    text-align: right;
+}
+h2{
+    font-size: 25px;
+}
+@media (max-width:768px){
+    .search{
+        text-align: center;
+        margin-top: 0;
+    }      
+    h2{
+        text-align: center;
+        margin-top: 5px;
+        margin-bottom: 0px;
+    }        
+}
+
+th{
+	background-color: 
+	
+}
+.newBlockbtn{
+    padding: 9px 30px;
+    border: 2px solid white;
+    margin: 10px;
+    color: #25353b;
+    background-color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    max-width: 180px;
+}
+.newBlockbtn:hover{
+    color: white !important;
+}
+main{
+    margin-top: 4.5em;
+}
+.table-container{
+    margin-top: 5px;
+    border: 1px solid black;
+    height: 40em;
+    overflow-x:auto;
+    overflow-y: auto;
+    margin-bottom: 15px;
+}
+@media (max-width:768px){
+       .table-container{
+            height: 350px;
+       }
+}
+table{
+    text-align: center;
+}
+th{
+    text-align: center !important;
+    padding: 12px !important;
+    border-color: black !important;
+}
+td a{
+    margin-right: 20px;
+    margin-left: 20px;
+    padding: 5px 30px;
+    border-radius: 5px;
+    background-color: #00b275;
+    border-color: green;
+    color: white;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border:2px solid #00b275;
+
+}
+td a:hover{
+    color: #00b275;
+    background-color: white;
+    text-decoration: none;
+    border:2px solid #00b275;
+}
+
+thead{
+    background-color: #929292;
+    color: white;
+    height:20px; 
+}
+.form-container{
+    border: 2px solid #f2f2f2;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 15px;
+    height: 35em;
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+
+
+
+@media (max-width:768px){
+       .form-container{
+            height: 28em;
+       }
+       .btnSave{
+            top:8em;
+       }
+}
+.form-input{
+    
+    max-width: 400px;
+    
+}
+.btnSave{
+    padding: 8px 34px;
+    background-color: #00b275;
+    position: relative;
+    right: 10px;
+    float: right;
+    top: 13em;
+    bottom: 0px;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 5px;
+    border-color: grey;
+}
+@media (max-width:768px){
+       .btnSave{
+            top:7em;
+       }
+}
+.sticky{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    padding: 5px;
+}
+ol{
+    margin-left: -20px;
+
+}
+ol label{
+    font-weight: bold;
+}
+
+/*Modal css*/
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1; 
+  padding-top: 100px; 
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%; 
+  overflow: auto; 
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0,0.4);
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  border: 1px solid #888;
+  width: 80%;
+  max-width: 650px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s
+}
+
+
+@-webkit-keyframes animatetop {
+  from {top:-300px; opacity:0} 
+  to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+  from {top:-300px; opacity:0}
+  to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal-header {
+  padding: 2px 16px;
+  background-color: #196867;
+  color: white;
+}
+
+.modal-body {padding: 5px 16px;}
+
+.modal-footer {
+  padding: 10px 16px;
+  background-color: #196867;
+  color: white;
+  text-align: left;
+}
+.modal-footer>input{
+  padding: 5px 25px;
+  color: white;
+  background-color: #0a2147;
+  border-radius: 5px;
+  margin: 5px 15px;
+  float: right;
+}
+.modal2{
+  padding: 20px;
+  text-align: center;
+  color: brown;
+}
