@@ -4,7 +4,7 @@ A Sample launch page for a company during Internship
 This is a sample page which indeed includes most of the real life functionalities. 
 It is a CRUD based system to store new users details and it contains new html features.
 
-You can find the project <a href="http://hari.joomla.com/PocketEducation"> deployed here</a>.
+You can find the project <a href="http://hari.joomla.com/PocketEducation/homepage.php"> deployed here</a>.
 
 ## Technology used
 <li> HTML </li>
